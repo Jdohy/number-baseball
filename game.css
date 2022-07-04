@@ -1,0 +1,51 @@
+.input-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.input-number__bar {
+  border-radius: 10px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.input-number__score {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px red, 2px 0 black, 0 -2px red;
+}
+
+.input-number__try {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.input-number__retry {
+  margin-top: 20px;
+}
+
+.input-number__retry button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.input-number__save {
+  margin-top: 10px;
+}
+
+.input-number__save__howmuch {
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
